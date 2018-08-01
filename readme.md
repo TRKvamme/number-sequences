@@ -2,10 +2,12 @@
 
 A useless 2-function library.
 
-Mostly served to set up build configurations and environment for a  generic js-library.
+Mostly served to set up build configurations and tdd-environment for a generic js-library.
 
-If you need a library to create a recaman sequence, there are heaps of them on npm.
+If you need a library to create a recaman sequence, there are heaps of them on npm, and I would recommend using one of those.
 
+
+But if you are already here...
 This one is very simple.
 
     get(n) get the n'th number in a recaman sequence.
