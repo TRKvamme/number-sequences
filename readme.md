@@ -9,5 +9,4 @@ If you need a library to create a recaman sequence, there are heaps of them on n
 This one is very simple.
 
     get(n) get the n'th number in a recaman sequence.
-    sequence(n) returns an array with a receman sequence of n length.
-
+    sequence(n) returns an array containing a recaman sequence of n length.
