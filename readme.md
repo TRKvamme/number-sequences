@@ -11,3 +11,10 @@ Currently containing:
     - [x] fibonacciSequence(n) : returns an array of <sub>0...n</sub> numbers.
 
 ## Installation
+    npm install numseq --save
+    
+## Usage
+    import numseq from 'numseq';
+    
+    numseq.recaman(5) //? 7
+    numseq.fibonacciSequence(10) //? [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
