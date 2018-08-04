@@ -1,4 +1,4 @@
-# Number-sequences
+# Integer-sequences
 
 Library containing functions for generating and extracting n'th number of a selection of popular number sequences.
 
@@ -14,13 +14,14 @@ Currently containing:
     npm install int-seq-generator --save
     
 ## Usage
-    import numseq from 'int-seq-generator';
+    import intseq from 'int-seq-generator';
     
-    numseq.recaman(5); // 7
-    numseq.fibonacciSequence(10); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+    intseq.recaman(5); // 7
+    intseq.fibonacciSequence(10); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
     **OR**
 
     import {recaman} from 'int-seq-generator';
 
     recaman(1); // 1
+    
