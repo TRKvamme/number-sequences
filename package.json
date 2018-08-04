@@ -1,7 +1,7 @@
 {
-  "name": "number-sequences",
+  "name": "intseq",
   "version": "1.0.0",
-  "description": "A collection of functions to generate and extract specific indexes of various famous number-sequnces",
+  "description": "A collection of functions to generate and extract specific indexes of various famous integer-sequnces",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
@@ -9,7 +9,7 @@
     "dev": "webpack --progress --colors --watch --env dev && npm run test"
   },
   "keywords": [
-    "sequence",
+    "integer-sequences",
     "recaman",
     "fibonacci"
   ],

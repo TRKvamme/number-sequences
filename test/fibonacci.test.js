@@ -1,4 +1,4 @@
-const fib = require('../lib/sequence.min');
+const fib = require('../src/index');
 
 /**
  * Testing fibonacci fuction.
