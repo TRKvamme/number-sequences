@@ -1,5 +1,5 @@
 {
-  "name": "intseq",
+  "name": "int-seq-generator",
   "version": "1.0.0",
   "description": "A collection of functions to generate and extract specific indexes of various famous integer-sequnces",
   "main": "index.js",
