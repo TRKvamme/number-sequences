@@ -1,8 +1,8 @@
 {
   "name": "int-seq-generator",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A collection of functions to generate and extract specific indexes of various famous integer-sequnces",
-  "main": "index.js",
+  "main": "lib/int-seq-generator.min.js",
   "scripts": {
     "test": "jest --watchAll",
     "build": "webpack --env dev && webpack --env build && npm run test",
