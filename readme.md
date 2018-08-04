@@ -1,14 +1,13 @@
-# Recaman sequence
+# Number-sequences
 
-A useless 2-function library.
+Library containing functions for generating and extracting n'th number of a selection of popular number sequences.
 
-Mostly served to set up build configurations and tdd-environment for a generic js-library.
+Currently containing:
+ - Recaman sequence
+    - [x] recaman(n) : returns n'th number.
+    - [x] recamanSequence(n) : returns an array of <sub>0...n</sub> numbers.
+ - Fibonacci sequence
+    - [x] fibonacci(n) : returns n'th number.
+    - [x] fibonacciSequence(n) : returns an array of <sub>0...n</sub> numbers.
 
-If you need a library to create a recaman sequence, there are heaps of them on npm, and I would recommend using one of those.
-
-
-But if you are already here...
-This one is very simple.
-
-    get(n) get the n'th number in a recaman sequence.
-    sequence(n) returns an array containing a recaman sequence of n length.
+## Installation
