@@ -16,5 +16,11 @@ Currently containing:
 ## Usage
     import numseq from 'numseq';
     
-    numseq.recaman(5) //? 7
-    numseq.fibonacciSequence(10) //? [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+    numseq.recaman(5); // 7
+    numseq.fibonacciSequence(10); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+    **OR**
+
+    import {recaman} from 'numseq';
+
+    recaman(1); // 1
