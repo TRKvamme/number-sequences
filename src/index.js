@@ -1,5 +1,6 @@
-var recaman = require('./recaman');
-var fibonacci = require('./fibonacci');
+let recaman = require('./recaman');
+let lucas = require('./lucas');
+let fibonacci = require('./fibonacci');
 
 module.exports = {
   /**
@@ -25,5 +26,7 @@ module.exports = {
    * @param number The index of the last number you want in a fibonacci-sequence.
    * @returns the n-th number of a recaman-sequence
    */
-  fibonacciSequnce: fibonacci.fibonacciSequence
+  fibonacciSequnce: fibonacci.fibonacciSequence,
+  lucas: lucas.lucas,
+  lucasSequence: lucas.lucasSequence
 };

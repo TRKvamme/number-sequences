@@ -3,7 +3,7 @@ export function recaman(number) {
   let output = 0;
   let error;
 
-  if (typeof (number) !== 'number') {
+  if (!(number === parseInt(number, 10))) {
     error = new Error('Input must be of type number');
     console.error(error.stack);
     throw error;
@@ -24,7 +24,7 @@ export function recamanSequence(number) {
   let output = 0;
   let error;
 
-  if (typeof (number) !== 'number') {
+  if (!(number === parseInt(number, 10))) {
     error = new Error('Input must be of type number');
     console.error(error.stack);
     throw error;

@@ -18,6 +18,7 @@ test('First 10 in a recaman sequence', () => {
 
   expect(test).toEqual([1, 3, 6, 2, 7, 13, 20, 12, 21, 11]);
 });
+
 /**
  * Testing the recaman function.
  */

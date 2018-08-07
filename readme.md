@@ -9,7 +9,9 @@ Currently containing:
  - Fibonacci sequence
     - [x] fibonacci(n) : returns n'th number.
     - [x] fibonacciSequence(n) : returns an array of <sub>0...n</sub> numbers.
-
+- Lucas sequence
+    - [x] lucas(n) : returns n'th number.
+    - [x] lucasSequence(n) : returns an array of <sub>0...n</sub> numbers.
 ## Installation
     npm install int-seq-generator --save
     

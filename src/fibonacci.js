@@ -4,7 +4,7 @@
  * @param {*} number input you want to validate.
  */
 const validate = (number) => {
-  if (number < 0 || typeof (number) !== 'number') {
+  if (number < 0 || !(number === parseInt(number, 10))) {
     let error = new Error('Invalid input: must be a positive integer or 0.');
 
     console.error(error.stack);
