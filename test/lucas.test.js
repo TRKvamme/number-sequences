@@ -1,5 +1,6 @@
 const lucas = require('../src/index');
 
+// testing lucas
 test('lucas, testing 0-5', () => {
   let number0 = lucas.lucas(0);
   let number1 = lucas.lucas(1);
@@ -22,7 +23,7 @@ test('lucas, input validation', () => {
   expect(() => lucas.lucas(-1)).toThrow();
 });
 
-// testing lucas sequence.
+// testing lucasSequence.
 test('lucasSequences, 0-5', () => {
   let seq0 = lucas.lucasSequence(0);
   let seq1 = lucas.lucasSequence(1);

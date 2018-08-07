@@ -1,6 +1,6 @@
 {
   "name": "int-seq-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of functions to generate and extract specific indexes of various famous integer-sequnces",
   "main": "lib/int-seq-generator.min.js",
   "scripts": {
